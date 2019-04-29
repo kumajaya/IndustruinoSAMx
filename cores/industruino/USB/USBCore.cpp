@@ -828,6 +828,7 @@ bool USBDeviceClass::handleStandardSetup(USBSetup &setup)
 			sendZlp(0);
 			return true;
 		}
+		break;
 
 	case SET_ADDRESS:
 		setAddress(setup.wValueL);
@@ -873,6 +874,7 @@ bool USBDeviceClass::handleStandardSetup(USBSetup &setup)
 	default:
 		return true;
 	}
+	return true;
 }
 
 void USBDeviceClass::ISRHandler()
