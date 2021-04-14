@@ -5,6 +5,6 @@
 
 ./README.md
 bootloaders/*/build/
-boards.txt
-platform.txt
-programmers.txt
+#boards.txt
+#platform.txt
+#programmers.txt
