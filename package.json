@@ -1,0 +1,6 @@
+{
+    "name": "framework-arduino-samd-industruino",
+    "description": "Arduino Core for SAMD21 and SAML21B (Industruino)",
+    "url": "https://github.com/kumajaya/IndustruinoSAMx",
+    "version": "1.0.0"
+}
