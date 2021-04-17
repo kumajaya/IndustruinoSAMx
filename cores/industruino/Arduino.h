@@ -133,6 +133,7 @@ void loop( void ) ;
 
 // The same define inside the 'saml21e18b.h' CMSIS file is not visible
 #if (SAML21B_SERIES)
+#undef _U
 #define _U(x) x ## U
 #endif
 
